@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <form method="POST"> <!-- Get, Post, Put, Delete, Patch-->
+        <!-- fieldset, legend-->
+        <div class="container">
+            <h1>Feedback form</h1>
+            <div class="row">
+                <label>User Name</label> <input type="text" class="inputField"/><br/>
+                <label>Password </label> <input type="password" class="inputField"/><br/>
+                <label>Email    </label> <input type="email" class="inputField"/><br/>
+            </div>
+        <select>
+            <option>Select Level</option>
+            <option>Level 1</option>
+            <option>Level 2</option>
+            <option>Level 3</option>
+            <option>Level 4</option>
+            <option>Level 5</option>
+            <option>Level 6</option>
+            <option>Level 7</option>
+            <option>Level 8</option>
+        </select>
+        <br/>
+        <div>Please give some feedback about the game!</div>
+        
+        <textarea cols="60" rows="4" class="inputField"></textarea> 
+        <br/>
+        <!-- <button type="submit">Ok</button> -->
+    </form>
+   
+    <a href="tables.html">Submit</a>
+</body>
+</html>
